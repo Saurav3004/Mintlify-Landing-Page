@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+h2 {
+    font-size: 25px;
+}
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
@@ -18,23 +21,24 @@ body {
 }
 #child1 {
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    padding-left: 84px;
+    justify-content: space-around;
+    align-items: center;
     gap: 1px;
+    padding-left: 42px;
 }
 
 #child2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: small;
-    gap: 10px;
+    font-size: large;
+    gap: 18px;
     font-weight: 600;
-    padding-left: 36px;
+    padding-left: 60px;
 }
 #child1 img {
-    width: 10px;
+    width: 20px;
+    height: 20px;
 }
 
 #child3 {
