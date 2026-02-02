@@ -10,11 +10,17 @@ h2 {
     font-size: 22px;
 }
 body {
-    background-image: url("assets/bg-dark.svg");
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 100vh;
-    background-size: cover;
+    /* height: min-content; */
+    /* background-size: cover; */
     color: #fff;
+    background: #000;
+}
+
+#hero {
+    background: url("assets/bg-dark.svg");
+    height: 100vh;
 }
 #header {
     display: flex;
@@ -56,6 +62,7 @@ button {
     border-radius: 20px;
     padding: 4.5px 10.5px;
     font-size: larger;
+    font-weight: normal;
 }
 
 #main {
@@ -63,15 +70,14 @@ button {
     background-color: black;
 }
 
-/* #main-child {
+.hero-text {
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: red;
-    color: #fff;
+    justify-content: center;
+    margin-top: 30px;
 }
-.main-child1 {
-    padding: 1.75px 7px;
-    background-color: rgb(75, 196, 75);
-    border-radius: 10px;
-} */
+
+input::placeholder {
+    font-size: 14px;
+    font-weight: bold;
+}
